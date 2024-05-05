@@ -96,7 +96,7 @@ const gameOver = id => {
   clearInterval(id);
 
 
-  untypedfield.textContent = 'GAME OVER';
+  untypedfield.textContent = 'タイムアップ！';
 
   setTimeout(() => {
     const result = confirm(rankCheck(score));
